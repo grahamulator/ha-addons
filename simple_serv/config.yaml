@@ -1,0 +1,22 @@
+name: "Simple Serv"
+description: "My first handmade add-on"
+version: "1.0.0"
+slug: "simple_serv"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+startup: services
+ports:
+  8000/tcp: 8000
+options:
+  thai: "Pad Kee Mao"
+  mexican: "Pollo Burrito"
+  italian: "Gnocchi"
+schema:
+  thai: str
+  mexican: str
+  italian: str
