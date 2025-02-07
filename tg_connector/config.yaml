@@ -1,6 +1,6 @@
 name: "Twingate Connector"
 description: "One click Twingate Connector deployment"
-version: "0.2.2"
+version: "0.2.3"
 slug: "tg_connector"
 init: false
 arch:
