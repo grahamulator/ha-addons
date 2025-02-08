@@ -1,6 +1,7 @@
 name: "Twingate Connector"
 description: "One click Twingate Connector deployment"
-version: "0.2.9"
+url: https://github.com/grahamulator/ha-addons/tree/main/tg_connector
+version: "0.2.10"
 slug: "tg_connector"
 init: false
 arch:
