@@ -1,6 +1,6 @@
 name: "Twingate Connector"
 description: "One click Twingate Connector deployment"
-version: "0.2.4"
+version: "0.2.5"
 slug: "tg_connector"
 init: false
 arch:
@@ -10,6 +10,9 @@ arch:
   - armv7
   - i386
 startup: services
+host_network: true
+docker_api: true
+full_access: true
 schema:
   network_slug: str
   access_token: str
