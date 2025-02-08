@@ -1,6 +1,6 @@
 name: "Twingate Connector"
 description: "One click Twingate Connector deployment"
-version: "0.2.6"
+version: "0.2.7"
 slug: "tg_connector"
 init: false
 arch:
@@ -15,5 +15,6 @@ docker_api: true
 full_access: true
 schema:
   network_slug: str
+  connector_name: str
   access_token: str
   refresh_token: str
